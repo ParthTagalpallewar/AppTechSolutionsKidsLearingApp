@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kidslearningkit">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/kidslearningcopy"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/kidslearningcopy"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KidsLearningKit">
+        <activity android:name=".tabs.otherApps.OtherApps"></activity>
+        <activity android:name=".tabs.firstTab.screens.alphabates.Albhabates_Activity2" />
+        <activity android:name=".tabs.secondTab.screens.puzzles.piesonPuzzle.PigeonPuzzleActivity" />
+        <activity android:name=".tabs.secondTab.screens.puzzles.catPuzzle.CatPuzzleActivity" />
+        <activity android:name=".tabs.secondTab.screens.puzzles.lionPuzzle.LionPuzzleActivity" />
+        <activity android:name=".tabs.secondTab.screens.puzzles.dogPuzzle.DogPuzzleActivity" />
+        <activity android:name=".tabs.secondTab.screens.puzzles.monkeyPuzzle.MonkeyPuzzleActivity" />
+        <activity android:name=".tabs.secondTab.screens.puzzles.tigerPuzzle.TigerPuzzleActivity" />
+        <activity android:name=".tabs.secondTab.screens.puzzles.PuzzlesActivity" />
+        <activity android:name=".tabs.secondTab.screens.ActionsActivity" />
+        <activity android:name=".tabs.secondTab.screens.FlagsActivity" />
+        <activity android:name=".tabs.secondTab.screens.WeeksActivity" />
+        <activity android:name=".tabs.secondTab.screens.MonthsActivity" />
+        <activity android:name=".tabs.firstTab.screens.ShapesActivity" />
+        <activity android:name=".tabs.firstTab.screens.VehiclesActivity" />
+        <activity android:name=".tabs.firstTab.screens.FruitsActivity" />
+        <activity android:name=".tabs.secondTab.screens.BodyPartsActivity" />
+        <activity android:name=".tabs.firstTab.screens.AnimalsActivity" />
+        <activity android:name=".tabs.firstTab.screens.alphabates.AlphabateActivity" />
+        <activity android:name=".tabs.firstTab.screens.NumbersActivity" />
+        <activity android:name=".tabs.secondTab.SecondTab" />
+        <activity android:name=".tabs.secondTab.splash.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".tabs.firstTab.FirstTab" />
+    </application>
+
+</manifest>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/numbers_bg"
+    tools:context=".tabs.firstTab.screens.NumbersActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LEARNING NUMBERS"
+        android:gravity="center"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textColor="@color/black"/>
+
+    <ViewFlipper
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/viewFlipper_numbers">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/one_j" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView2"
+            android:src="@drawable/two_j"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView3"
+            android:src="@drawable/three_j"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView4"
+            android:src="@drawable/four_j"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView5"
+            android:src="@drawable/five_j"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView6"
+            android:src="@drawable/six_j"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView7"
+            android:src="@drawable/seven_j"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView8"
+            android:src="@drawable/eight_j"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView9"
+            android:src="@drawable/nine_j"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView10"
+            android:src="@drawable/ten_j"/>
+
+
+    </ViewFlipper>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/left_number"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="4dp"
+            android:src="@drawable/left_button" />
+
+        <ImageView
+            android:id="@+id/play_number"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="4dp"
+            android:src="@drawable/button_play" />
+
+        <ImageView
+            android:id="@+id/right_number"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="4dp"
+            android:src="@drawable/right_button" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
